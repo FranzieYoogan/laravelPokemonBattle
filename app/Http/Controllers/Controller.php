@@ -23,6 +23,20 @@ class Controller
         $pokemon1 = $request->input('pokemon1');
         $pokemon2 = $request->input('pokemon2');
 
+        if($pokemon1 == "Choose a Pokemon" || $pokemon2 == "Choose a Pokemon") {
+
+
+            $error = true;
+    
+            return view('result', ['error' => $error]);
+
+        } else {
+
+     
+    
+        
+      
+
         $response1 = Http::get("https://pokeapi.co/api/v2/pokemon/$pokemon1");
         $response2 = Http::get("https://pokeapi.co/api/v2/pokemon/$pokemon2");
 
@@ -52,6 +66,11 @@ $data11 > $data22  || $data55 > $data66 && $data33 > $data44) {
 }
 
         return view('result', ['data11' => $data11,'data22' => $data22, 'data33' => $data33,'data44' => $data44  , 'data55' => $data55,'data66' => $data66, 'win' => $win, 'sprite1' => $sprite1]);
+   
+    }
+
 
     }
+
+
 }

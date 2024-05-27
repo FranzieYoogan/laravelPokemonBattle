@@ -18,6 +18,21 @@
 
 <section class="containerAll">
 
+@if(isset($error))
+
+<h1 class="errorAlert">You Haven't chosen a pokemon</h1>
+
+<script>
+
+    setTimeout(() => {
+
+        window.location.href="http://127.0.0.1:8000/"
+
+    }, 2000);
+
+</script>
+
+@else
 
 
 @if(isset($data11) && isset($data22))
@@ -56,6 +71,8 @@
 
 
 </div>
+
+@endif
 
 @endif
 

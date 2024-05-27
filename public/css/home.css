@@ -22,13 +22,18 @@ button {
     width: 100%;
     position: relative;
     top: 1em;
-
+    outline: none !important;
+    border: 2px solid black !important;
+    background-color: orange !important;
+    color: white !important;
+    border: 1px solid black;
+    font-weight: 900 !important;
 }
 
-button:hover {
+button:hover, button:focus, button:active {
 
-    box-shadow: 2px 2px 1px 1px black;
-
+    box-shadow: 2px 2px 1px 1px black !important;
+    border: 2px solid transparent !important;
 }
 
 section {
@@ -48,21 +53,30 @@ body {
 select {
 
     border: 1px solid black !important;
+    outline: none !important;
+}
+
+select:focus, select:active {
+
+    box-shadow: 2px 2px 1px 1px black !important;
 
 }
 
-button {
 
-    background-color: orange !important;
-    color: white !important;
-    border: 1px solid black;
-    font-weight: 900 !important;
 
-}
 
 label {
 
     font-weight: 900 !important;
     color: white !important;
+
+}
+
+
+.errorAlert {
+
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 1px white;
 
 }
