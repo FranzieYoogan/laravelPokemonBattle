@@ -1,0 +1,68 @@
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+
+}
+
+.containerItems {
+
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1em;
+    border: 2px solid white !important;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+button {
+
+    width: 100%;
+    position: relative;
+    top: 1em;
+
+}
+
+button:hover {
+
+    box-shadow: 2px 2px 1px 1px black;
+
+}
+
+section {
+
+    
+}
+
+body {
+
+
+    background-color: black;
+    
+    background-size: 100%;
+
+}
+
+select {
+
+    border: 1px solid black !important;
+
+}
+
+button {
+
+    background-color: orange !important;
+    color: white !important;
+    border: 1px solid black;
+    font-weight: 900 !important;
+
+}
+
+label {
+
+    font-weight: 900 !important;
+    color: white !important;
+
+}

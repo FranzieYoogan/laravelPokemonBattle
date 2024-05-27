@@ -1,0 +1,42 @@
+.containerAll {
+    
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.containerWin {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerWin2 {
+
+    margin-top: 3em;
+
+}
+
+.titleStyle {
+
+    text-align: center;
+
+}
+
+body {
+
+
+    background-color: black;
+    
+    background-size: 100%;
+
+}
+
+h1 {
+
+    color: red;
+    text-shadow: 1px 1px 1px white;
+
+}

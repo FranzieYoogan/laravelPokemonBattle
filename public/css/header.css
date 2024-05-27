@@ -1,0 +1,21 @@
+.navbarStyle {
+
+    border-bottom: 3px solid white !important;
+    background-color: red !important;
+}
+
+.spanStyle {
+
+    font-weight: 900 !important;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.navIconStyle {
+
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 40px;
+
+}
+
